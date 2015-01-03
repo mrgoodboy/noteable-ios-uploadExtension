@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Noteable-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Noteable-DocumentUpload-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Noteable-DocumentUpload.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Noteable.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4BF263B8DB4C02DE0C1BF3FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88D118EEFFB99CD6889E1F29</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA766D9AF3FE26B3A4B25FB2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F88D7C78F4D72713B8CF581F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

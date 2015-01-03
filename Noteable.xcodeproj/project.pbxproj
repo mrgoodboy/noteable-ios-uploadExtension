@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092873E2A7F95B1481C0A590 /* libPods-Noteable-DocumentUpload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A714F0C05F2C918120909E1 /* libPods-Noteable-DocumentUpload.a */; };
+		A428B354EED980D2B2D73EA1 /* libPods-Noteable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30521F4AE54C41086DBEA42D /* libPods-Noteable.a */; };
+		AB9AA0681A58335E001EA84E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0671A58335E001EA84E /* main.m */; };
+		AB9AA06B1A58335E001EA84E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA06A1A58335E001EA84E /* AppDelegate.m */; };
+		AB9AA0711A58335E001EA84E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9AA06F1A58335E001EA84E /* Main.storyboard */; };
+		AB9AA0731A58335E001EA84E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9AA0721A58335E001EA84E /* Images.xcassets */; };
+		AB9AA0761A58335E001EA84E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB9AA0741A58335E001EA84E /* LaunchScreen.xib */; };
+		AB9AA0821A58335E001EA84E /* NoteableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0811A58335E001EA84E /* NoteableTests.m */; };
+		AB9AA0951A583378001EA84E /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0941A583378001EA84E /* ShareViewController.m */; };
+		AB9AA0971A583378001EA84E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9AA0961A583378001EA84E /* MainInterface.storyboard */; };
+		AB9AA09A1A583378001EA84E /* Noteable-DocumentUpload.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB9AA08F1A583378001EA84E /* Noteable-DocumentUpload.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB9AA0A11A583B73001EA84E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0A01A583B73001EA84E /* LoginViewController.m */; };
+		AB9AA0A41A583B8E001EA84E /* HomeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0A31A583B8E001EA84E /* HomeCollectionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB9AA07C1A58335E001EA84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB9AA05A1A58335E001EA84E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB9AA0611A58335E001EA84E;
+			remoteInfo = Noteable;
+		};
+		AB9AA0981A583378001EA84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB9AA05A1A58335E001EA84E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB9AA08E1A583378001EA84E;
+			remoteInfo = "Noteable-DocumentUpload";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB9AA09E1A583378001EA84E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB9AA09A1A583378001EA84E /* Noteable-DocumentUpload.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		30521F4AE54C41086DBEA42D /* libPods-Noteable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Noteable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A714F0C05F2C918120909E1 /* libPods-Noteable-DocumentUpload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Noteable-DocumentUpload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F79EB4FA1DABC3BF468826D /* Pods-Noteable-DocumentUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noteable-DocumentUpload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noteable-DocumentUpload/Pods-Noteable-DocumentUpload.debug.xcconfig"; sourceTree = "<group>"; };
+		9A11EE361895ED4E968D5F03 /* Pods-Noteable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noteable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noteable/Pods-Noteable.debug.xcconfig"; sourceTree = "<group>"; };
+		AB28B80E40F06FDB73F35B91 /* Pods-Noteable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noteable.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noteable/Pods-Noteable.release.xcconfig"; sourceTree = "<group>"; };
+		AB9AA0621A58335E001EA84E /* Noteable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noteable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9AA0661A58335E001EA84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9AA0671A58335E001EA84E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB9AA0691A58335E001EA84E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB9AA06A1A58335E001EA84E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB9AA0701A58335E001EA84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB9AA0721A58335E001EA84E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB9AA0751A58335E001EA84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AB9AA07B1A58335E001EA84E /* NoteableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9AA0801A58335E001EA84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9AA0811A58335E001EA84E /* NoteableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteableTests.m; sourceTree = "<group>"; };
+		AB9AA08F1A583378001EA84E /* Noteable-DocumentUpload.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Noteable-DocumentUpload.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9AA0921A583378001EA84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9AA0931A583378001EA84E /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		AB9AA0941A583378001EA84E /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		AB9AA0961A583378001EA84E /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		AB9AA09F1A583B73001EA84E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AB9AA0A01A583B73001EA84E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		AB9AA0A21A583B8E001EA84E /* HomeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewController.h; sourceTree = "<group>"; };
+		AB9AA0A31A583B8E001EA84E /* HomeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewController.m; sourceTree = "<group>"; };
+		AB9AA0A51A5840B5001EA84E /* Noteable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Noteable.entitlements; sourceTree = "<group>"; };
+		FEFAF23790370DB507E00DCB /* Pods-Noteable-DocumentUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noteable-DocumentUpload.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noteable-DocumentUpload/Pods-Noteable-DocumentUpload.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB9AA05F1A58335E001EA84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A428B354EED980D2B2D73EA1 /* libPods-Noteable.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9AA0781A58335E001EA84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9AA08C1A583378001EA84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092873E2A7F95B1481C0A590 /* libPods-Noteable-DocumentUpload.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BAD0508220A8D0DA6ACB3B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A714F0C05F2C918120909E1 /* libPods-Noteable-DocumentUpload.a */,
+				30521F4AE54C41086DBEA42D /* libPods-Noteable.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F5FE55E75FC7B8D86FBB2E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F79EB4FA1DABC3BF468826D /* Pods-Noteable-DocumentUpload.debug.xcconfig */,
+				FEFAF23790370DB507E00DCB /* Pods-Noteable-DocumentUpload.release.xcconfig */,
+				9A11EE361895ED4E968D5F03 /* Pods-Noteable.debug.xcconfig */,
+				AB28B80E40F06FDB73F35B91 /* Pods-Noteable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB9AA0591A58335E001EA84E = {
+			isa = PBXGroup;
+			children = (
+				AB9AA0641A58335E001EA84E /* Noteable */,
+				AB9AA07E1A58335E001EA84E /* NoteableTests */,
+				AB9AA0901A583378001EA84E /* Noteable-DocumentUpload */,
+				AB9AA0631A58335E001EA84E /* Products */,
+				8F5FE55E75FC7B8D86FBB2E3 /* Pods */,
+				7BAD0508220A8D0DA6ACB3B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB9AA0631A58335E001EA84E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB9AA0621A58335E001EA84E /* Noteable.app */,
+				AB9AA07B1A58335E001EA84E /* NoteableTests.xctest */,
+				AB9AA08F1A583378001EA84E /* Noteable-DocumentUpload.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB9AA0641A58335E001EA84E /* Noteable */ = {
+			isa = PBXGroup;
+			children = (
+				AB9AA0A51A5840B5001EA84E /* Noteable.entitlements */,
+				AB9AA0691A58335E001EA84E /* AppDelegate.h */,
+				AB9AA09F1A583B73001EA84E /* LoginViewController.h */,
+				AB9AA0A01A583B73001EA84E /* LoginViewController.m */,
+				AB9AA0A21A583B8E001EA84E /* HomeCollectionViewController.h */,
+				AB9AA0A31A583B8E001EA84E /* HomeCollectionViewController.m */,
+				AB9AA06A1A58335E001EA84E /* AppDelegate.m */,
+				AB9AA06F1A58335E001EA84E /* Main.storyboard */,
+				AB9AA0721A58335E001EA84E /* Images.xcassets */,
+				AB9AA0741A58335E001EA84E /* LaunchScreen.xib */,
+				AB9AA0651A58335E001EA84E /* Supporting Files */,
+			);
+			path = Noteable;
+			sourceTree = "<group>";
+		};
+		AB9AA0651A58335E001EA84E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB9AA0661A58335E001EA84E /* Info.plist */,
+				AB9AA0671A58335E001EA84E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB9AA07E1A58335E001EA84E /* NoteableTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB9AA0811A58335E001EA84E /* NoteableTests.m */,
+				AB9AA07F1A58335E001EA84E /* Supporting Files */,
+			);
+			path = NoteableTests;
+			sourceTree = "<group>";
+		};
+		AB9AA07F1A58335E001EA84E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB9AA0801A58335E001EA84E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB9AA0901A583378001EA84E /* Noteable-DocumentUpload */ = {
+			isa = PBXGroup;
+			children = (
+				AB9AA0931A583378001EA84E /* ShareViewController.h */,
+				AB9AA0941A583378001EA84E /* ShareViewController.m */,
+				AB9AA0961A583378001EA84E /* MainInterface.storyboard */,
+				AB9AA0911A583378001EA84E /* Supporting Files */,
+			);
+			path = "Noteable-DocumentUpload";
+			sourceTree = "<group>";
+		};
+		AB9AA0911A583378001EA84E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB9AA0921A583378001EA84E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB9AA0611A58335E001EA84E /* Noteable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9AA0851A58335E001EA84E /* Build configuration list for PBXNativeTarget "Noteable" */;
+			buildPhases = (
+				6281C762AA43F1A553666F50 /* Check Pods Manifest.lock */,
+				AB9AA05E1A58335E001EA84E /* Sources */,
+				AB9AA05F1A58335E001EA84E /* Frameworks */,
+				AB9AA0601A58335E001EA84E /* Resources */,
+				AB9AA09E1A583378001EA84E /* Embed App Extensions */,
+				F3981AE753298022D537AE89 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB9AA0991A583378001EA84E /* PBXTargetDependency */,
+			);
+			name = Noteable;
+			productName = Noteable;
+			productReference = AB9AA0621A58335E001EA84E /* Noteable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB9AA07A1A58335E001EA84E /* NoteableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9AA0881A58335E001EA84E /* Build configuration list for PBXNativeTarget "NoteableTests" */;
+			buildPhases = (
+				AB9AA0771A58335E001EA84E /* Sources */,
+				AB9AA0781A58335E001EA84E /* Frameworks */,
+				AB9AA0791A58335E001EA84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB9AA07D1A58335E001EA84E /* PBXTargetDependency */,
+			);
+			name = NoteableTests;
+			productName = NoteableTests;
+			productReference = AB9AA07B1A58335E001EA84E /* NoteableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB9AA08E1A583378001EA84E /* Noteable-DocumentUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9AA09B1A583378001EA84E /* Build configuration list for PBXNativeTarget "Noteable-DocumentUpload" */;
+			buildPhases = (
+				E9BDB26C05CB381E775054D2 /* Check Pods Manifest.lock */,
+				AB9AA08B1A583378001EA84E /* Sources */,
+				AB9AA08C1A583378001EA84E /* Frameworks */,
+				AB9AA08D1A583378001EA84E /* Resources */,
+				8921F9E01B514DA5A70E3919 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noteable-DocumentUpload";
+			productName = "Noteable-DocumentUpload";
+			productReference = AB9AA08F1A583378001EA84E /* Noteable-DocumentUpload.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB9AA05A1A58335E001EA84E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Noteable;
+				TargetAttributes = {
+					AB9AA0611A58335E001EA84E = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = XTKM9ER4YN;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					AB9AA07A1A58335E001EA84E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AB9AA0611A58335E001EA84E;
+					};
+					AB9AA08E1A583378001EA84E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = AB9AA05D1A58335E001EA84E /* Build configuration list for PBXProject "Noteable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB9AA0591A58335E001EA84E;
+			productRefGroup = AB9AA0631A58335E001EA84E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB9AA0611A58335E001EA84E /* Noteable */,
+				AB9AA07A1A58335E001EA84E /* NoteableTests */,
+				AB9AA08E1A583378001EA84E /* Noteable-DocumentUpload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB9AA0601A58335E001EA84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9AA0711A58335E001EA84E /* Main.storyboard in Resources */,
+				AB9AA0761A58335E001EA84E /* LaunchScreen.xib in Resources */,
+				AB9AA0731A58335E001EA84E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9AA0791A58335E001EA84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9AA08D1A583378001EA84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9AA0971A583378001EA84E /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6281C762AA43F1A553666F50 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8921F9E01B514DA5A70E3919 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noteable-DocumentUpload/Pods-Noteable-DocumentUpload-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9BDB26C05CB381E775054D2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3981AE753298022D537AE89 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noteable/Pods-Noteable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB9AA05E1A58335E001EA84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9AA0A11A583B73001EA84E /* LoginViewController.m in Sources */,
+				AB9AA06B1A58335E001EA84E /* AppDelegate.m in Sources */,
+				AB9AA0681A58335E001EA84E /* main.m in Sources */,
+				AB9AA0A41A583B8E001EA84E /* HomeCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9AA0771A58335E001EA84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9AA0821A58335E001EA84E /* NoteableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9AA08B1A583378001EA84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9AA0951A583378001EA84E /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB9AA07D1A58335E001EA84E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB9AA0611A58335E001EA84E /* Noteable */;
+			targetProxy = AB9AA07C1A58335E001EA84E /* PBXContainerItemProxy */;
+		};
+		AB9AA0991A583378001EA84E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB9AA08E1A583378001EA84E /* Noteable-DocumentUpload */;
+			targetProxy = AB9AA0981A583378001EA84E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB9AA06F1A58335E001EA84E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9AA0701A58335E001EA84E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB9AA0741A58335E001EA84E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9AA0751A58335E001EA84E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB9AA0831A58335E001EA84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB9AA0841A58335E001EA84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB9AA0861A58335E001EA84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A11EE361895ED4E968D5F03 /* Pods-Noteable.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Noteable/Noteable.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Noteable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AB9AA0871A58335E001EA84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB28B80E40F06FDB73F35B91 /* Pods-Noteable.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Noteable/Noteable.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Noteable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		AB9AA0891A58335E001EA84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NoteableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noteable.app/Noteable";
+			};
+			name = Debug;
+		};
+		AB9AA08A1A58335E001EA84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NoteableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noteable.app/Noteable";
+			};
+			name = Release;
+		};
+		AB9AA09C1A583378001EA84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F79EB4FA1DABC3BF468826D /* Pods-Noteable-DocumentUpload.debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Noteable-DocumentUpload/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB9AA09D1A583378001EA84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEFAF23790370DB507E00DCB /* Pods-Noteable-DocumentUpload.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Noteable-DocumentUpload/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB9AA05D1A58335E001EA84E /* Build configuration list for PBXProject "Noteable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9AA0831A58335E001EA84E /* Debug */,
+				AB9AA0841A58335E001EA84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9AA0851A58335E001EA84E /* Build configuration list for PBXNativeTarget "Noteable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9AA0861A58335E001EA84E /* Debug */,
+				AB9AA0871A58335E001EA84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9AA0881A58335E001EA84E /* Build configuration list for PBXNativeTarget "NoteableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9AA0891A58335E001EA84E /* Debug */,
+				AB9AA08A1A58335E001EA84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9AA09B1A583378001EA84E /* Build configuration list for PBXNativeTarget "Noteable-DocumentUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9AA09C1A583378001EA84E /* Debug */,
+				AB9AA09D1A583378001EA84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB9AA05A1A58335E001EA84E /* Project object */;
+}
