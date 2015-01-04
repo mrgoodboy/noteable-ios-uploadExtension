@@ -19,7 +19,9 @@
 @implementation LoginViewController
 
 //#define BASE_URL @"http://noteable.com"
-#define BASE_URL @"http://4302a100.ngrok.com"
+//#define BASE_URL @"http://4302a100.ngrok.com"
+#define BASE_URL @"http://noteable.ngrok.com"
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
