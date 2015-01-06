@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		092873E2A7F95B1481C0A590 /* libPods-Noteable-DocumentUpload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A714F0C05F2C918120909E1 /* libPods-Noteable-DocumentUpload.a */; };
 		A428B354EED980D2B2D73EA1 /* libPods-Noteable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30521F4AE54C41086DBEA42D /* libPods-Noteable.a */; };
+		AB64DB461A59D4F800E747C9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0A01A583B73001EA84E /* LoginViewController.m */; };
 		AB9AA0681A58335E001EA84E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0671A58335E001EA84E /* main.m */; };
 		AB9AA06B1A58335E001EA84E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA06A1A58335E001EA84E /* AppDelegate.m */; };
 		AB9AA0711A58335E001EA84E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9AA06F1A58335E001EA84E /* Main.storyboard */; };
@@ -18,7 +19,6 @@
 		AB9AA0951A583378001EA84E /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0941A583378001EA84E /* ShareViewController.m */; };
 		AB9AA0971A583378001EA84E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9AA0961A583378001EA84E /* MainInterface.storyboard */; };
 		AB9AA09A1A583378001EA84E /* Noteable-DocumentUpload.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB9AA08F1A583378001EA84E /* Noteable-DocumentUpload.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		AB9AA0A11A583B73001EA84E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0A01A583B73001EA84E /* LoginViewController.m */; };
 		AB9AA0A41A583B8E001EA84E /* HomeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0A31A583B8E001EA84E /* HomeCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -419,7 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9AA0A11A583B73001EA84E /* LoginViewController.m in Sources */,
+				AB64DB461A59D4F800E747C9 /* LoginViewController.m in Sources */,
 				AB9AA06B1A58335E001EA84E /* AppDelegate.m in Sources */,
 				AB9AA0681A58335E001EA84E /* main.m in Sources */,
 				AB9AA0A41A583B8E001EA84E /* HomeCollectionViewController.m in Sources */,

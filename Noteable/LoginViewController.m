@@ -9,8 +9,8 @@
 #import "LoginViewController.h"
 #import "AFNetworking/AFNetworking.h"
 @interface LoginViewController ()
-@property (strong, nonatomic) IBOutlet UITextField *usernameField;
 @property (strong, nonatomic) IBOutlet UITextField *passwordField;
+@property (strong, nonatomic) IBOutlet UITextField *emailField;
 @property (weak, nonatomic) UITextField *activeTextField;
 
 
@@ -19,8 +19,8 @@
 @implementation LoginViewController
 
 //#define BASE_URL @"http://noteable.com"
-//#define BASE_URL @"http://4302a100.ngrok.com"
-#define BASE_URL @"http://noteable.ngrok.com"
+#define BASE_URL @"http://4302a100.ngrok.com"
+//#define BASE_URL @"http://noteable.ngrok.com"
 
 
 - (void)viewDidLoad {
@@ -37,7 +37,7 @@
   
   NSString *string = [NSString stringWithFormat:@"%@/iphone-login", BASE_URL];
   NSDictionary *params = @ {
-    @"username" :self.usernameField.text,
+    @"email" :self.emailField.text,
     @"password" :self.passwordField.text
   };
   NSLog(@"Attempting to log in");

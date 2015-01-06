@@ -19,7 +19,8 @@
 @implementation ShareViewController
 
 //#define UPLOAD_URL @"http://noteable.com/document_upload"
-#define UPLOAD_URL @"http://43234da100.ngrok.com"
+//#define UPLOAD_URL @"http://noteable.ngrok.com/notes/iphone-upload"
+#define UPLOAD_URL @"http://4302a100.ngrok.com/notes/iphone-upload"
 
 - (void)viewWillAppear:(BOOL)animated {
   [super viewWillAppear:animated];
@@ -108,6 +109,7 @@
                                              fileName:@"photo"
                                              mimeType:@"image/jpeg"];
                    } error:nil];
+
   
   // 3. Create and use `AFHTTPRequestOperationManager` to create an `AFHTTPRequestOperation` from the `NSMutableURLRequest` that we just created.
   AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
