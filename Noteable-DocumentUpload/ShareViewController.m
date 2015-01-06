@@ -7,6 +7,7 @@
 //
 
 #import "ShareViewController.h"
+#import "NoteableConfig.h"
 #import "AFNetworking/AFNetworking.h"
 
 @interface ShareViewController ()
@@ -18,10 +19,6 @@
 
 @implementation ShareViewController
 
-//#define UPLOAD_URL @"http://noteable.com/document_upload"
-//#define UPLOAD_URL @"http://noteable.ngrok.com/notes/iphone-upload"
-#define UPLOAD_URL @"http://4302a100.ngrok.com/notes/iphone-upload"
-
 - (void)viewWillAppear:(BOOL)animated {
   [super viewWillAppear:animated];
   
@@ -32,7 +29,7 @@
   
   //get the auth token
   NSUserDefaults *myDefaults = [[NSUserDefaults alloc]
-                                initWithSuiteName:@"group.com.noteable.app"];
+                                initWithSuiteName:GROUP_ID];
   self.token = [myDefaults objectForKey:@"token"];
   if (self.token)
     NSLog(@"token is %@", self.token);
@@ -94,7 +91,7 @@
   NSData *imageData = UIImageJPEGRepresentation(image, 0.8);
   
   NSDictionary *params = @{ @"token":self.token, @"filename":filename };
-  NSString *path = [NSString stringWithFormat:@"%@", UPLOAD_URL];
+  NSString *path = [NSString stringWithFormat:@"%@/notes/iphone-upload", BASE_URL];
   
   // 1. Create `AFHTTPRequestSerializer` which will create your request.
   AFHTTPRequestSerializer *serializer = [AFHTTPRequestSerializer serializer];

@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		092873E2A7F95B1481C0A590 /* libPods-Noteable-DocumentUpload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A714F0C05F2C918120909E1 /* libPods-Noteable-DocumentUpload.a */; };
 		A428B354EED980D2B2D73EA1 /* libPods-Noteable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30521F4AE54C41086DBEA42D /* libPods-Noteable.a */; };
+		AB019E8C1A5BFCBC00C67AD1 /* NoteableTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = AB019E8B1A5BFCBC00C67AD1 /* NoteableTheme.m */; };
+		AB019EAD1A5C106900C67AD1 /* HomeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB019EAC1A5C106900C67AD1 /* HomeCollectionViewController.m */; };
+		AB019EB31A5C10EC00C67AD1 /* FileCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB019EB21A5C10EC00C67AD1 /* FileCollectionViewCell.m */; };
+		AB019EB61A5C112B00C67AD1 /* NoteableFile.m in Sources */ = {isa = PBXBuildFile; fileRef = AB019EB51A5C112B00C67AD1 /* NoteableFile.m */; };
+		AB019EB81A5C119B00C67AD1 /* FileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB019EB71A5C119B00C67AD1 /* FileCollectionViewCell.xib */; };
 		AB64DB461A59D4F800E747C9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0A01A583B73001EA84E /* LoginViewController.m */; };
 		AB9AA0681A58335E001EA84E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0671A58335E001EA84E /* main.m */; };
 		AB9AA06B1A58335E001EA84E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA06A1A58335E001EA84E /* AppDelegate.m */; };
@@ -19,7 +24,6 @@
 		AB9AA0951A583378001EA84E /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0941A583378001EA84E /* ShareViewController.m */; };
 		AB9AA0971A583378001EA84E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9AA0961A583378001EA84E /* MainInterface.storyboard */; };
 		AB9AA09A1A583378001EA84E /* Noteable-DocumentUpload.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB9AA08F1A583378001EA84E /* Noteable-DocumentUpload.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		AB9AA0A41A583B8E001EA84E /* HomeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9AA0A31A583B8E001EA84E /* HomeCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,16 @@
 		5A714F0C05F2C918120909E1 /* libPods-Noteable-DocumentUpload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Noteable-DocumentUpload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F79EB4FA1DABC3BF468826D /* Pods-Noteable-DocumentUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noteable-DocumentUpload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noteable-DocumentUpload/Pods-Noteable-DocumentUpload.debug.xcconfig"; sourceTree = "<group>"; };
 		9A11EE361895ED4E968D5F03 /* Pods-Noteable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noteable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noteable/Pods-Noteable.debug.xcconfig"; sourceTree = "<group>"; };
+		AB019E8A1A5BFCBC00C67AD1 /* NoteableTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteableTheme.h; sourceTree = "<group>"; };
+		AB019E8B1A5BFCBC00C67AD1 /* NoteableTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteableTheme.m; sourceTree = "<group>"; };
+		AB019EAB1A5C106900C67AD1 /* HomeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewController.h; sourceTree = "<group>"; };
+		AB019EAC1A5C106900C67AD1 /* HomeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewController.m; sourceTree = "<group>"; };
+		AB019EB11A5C10EC00C67AD1 /* FileCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileCollectionViewCell.h; sourceTree = "<group>"; };
+		AB019EB21A5C10EC00C67AD1 /* FileCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileCollectionViewCell.m; sourceTree = "<group>"; };
+		AB019EB41A5C112B00C67AD1 /* NoteableFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteableFile.h; sourceTree = "<group>"; };
+		AB019EB51A5C112B00C67AD1 /* NoteableFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteableFile.m; sourceTree = "<group>"; };
+		AB019EB71A5C119B00C67AD1 /* FileCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FileCollectionViewCell.xib; sourceTree = "<group>"; };
+		AB019EB91A5C136800C67AD1 /* NoteableConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteableConfig.h; sourceTree = "<group>"; };
 		AB28B80E40F06FDB73F35B91 /* Pods-Noteable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noteable.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noteable/Pods-Noteable.release.xcconfig"; sourceTree = "<group>"; };
 		AB9AA0621A58335E001EA84E /* Noteable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noteable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9AA0661A58335E001EA84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,8 +91,6 @@
 		AB9AA0961A583378001EA84E /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		AB9AA09F1A583B73001EA84E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		AB9AA0A01A583B73001EA84E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		AB9AA0A21A583B8E001EA84E /* HomeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewController.h; sourceTree = "<group>"; };
-		AB9AA0A31A583B8E001EA84E /* HomeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewController.m; sourceTree = "<group>"; };
 		AB9AA0A51A5840B5001EA84E /* Noteable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Noteable.entitlements; sourceTree = "<group>"; };
 		FEFAF23790370DB507E00DCB /* Pods-Noteable-DocumentUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noteable-DocumentUpload.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noteable-DocumentUpload/Pods-Noteable-DocumentUpload.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +142,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AB019EBA1A5C140A00C67AD1 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				AB019E8A1A5BFCBC00C67AD1 /* NoteableTheme.h */,
+				AB019E8B1A5BFCBC00C67AD1 /* NoteableTheme.m */,
+				AB9AA0A51A5840B5001EA84E /* Noteable.entitlements */,
+				AB019EB91A5C136800C67AD1 /* NoteableConfig.h */,
+				AB9AA0691A58335E001EA84E /* AppDelegate.h */,
+				AB9AA06A1A58335E001EA84E /* AppDelegate.m */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
 		AB9AA0591A58335E001EA84E = {
 			isa = PBXGroup;
 			children = (
@@ -155,16 +180,19 @@
 		AB9AA0641A58335E001EA84E /* Noteable */ = {
 			isa = PBXGroup;
 			children = (
-				AB9AA0A51A5840B5001EA84E /* Noteable.entitlements */,
-				AB9AA0691A58335E001EA84E /* AppDelegate.h */,
+				AB019EBA1A5C140A00C67AD1 /* config */,
 				AB9AA09F1A583B73001EA84E /* LoginViewController.h */,
 				AB9AA0A01A583B73001EA84E /* LoginViewController.m */,
-				AB9AA0A21A583B8E001EA84E /* HomeCollectionViewController.h */,
-				AB9AA0A31A583B8E001EA84E /* HomeCollectionViewController.m */,
-				AB9AA06A1A58335E001EA84E /* AppDelegate.m */,
+				AB019EAB1A5C106900C67AD1 /* HomeCollectionViewController.h */,
+				AB019EAC1A5C106900C67AD1 /* HomeCollectionViewController.m */,
+				AB019EB11A5C10EC00C67AD1 /* FileCollectionViewCell.h */,
+				AB019EB21A5C10EC00C67AD1 /* FileCollectionViewCell.m */,
+				AB019EB71A5C119B00C67AD1 /* FileCollectionViewCell.xib */,
+				AB019EB41A5C112B00C67AD1 /* NoteableFile.h */,
+				AB019EB51A5C112B00C67AD1 /* NoteableFile.m */,
 				AB9AA06F1A58335E001EA84E /* Main.storyboard */,
-				AB9AA0721A58335E001EA84E /* Images.xcassets */,
 				AB9AA0741A58335E001EA84E /* LaunchScreen.xib */,
+				AB9AA0721A58335E001EA84E /* Images.xcassets */,
 				AB9AA0651A58335E001EA84E /* Supporting Files */,
 			);
 			path = Noteable;
@@ -330,6 +358,7 @@
 			files = (
 				AB9AA0711A58335E001EA84E /* Main.storyboard in Resources */,
 				AB9AA0761A58335E001EA84E /* LaunchScreen.xib in Resources */,
+				AB019EB81A5C119B00C67AD1 /* FileCollectionViewCell.xib in Resources */,
 				AB9AA0731A58335E001EA84E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,9 +449,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB64DB461A59D4F800E747C9 /* LoginViewController.m in Sources */,
+				AB019E8C1A5BFCBC00C67AD1 /* NoteableTheme.m in Sources */,
+				AB019EB31A5C10EC00C67AD1 /* FileCollectionViewCell.m in Sources */,
 				AB9AA06B1A58335E001EA84E /* AppDelegate.m in Sources */,
 				AB9AA0681A58335E001EA84E /* main.m in Sources */,
-				AB9AA0A41A583B8E001EA84E /* HomeCollectionViewController.m in Sources */,
+				AB019EB61A5C112B00C67AD1 /* NoteableFile.m in Sources */,
+				AB019EAD1A5C106900C67AD1 /* HomeCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
